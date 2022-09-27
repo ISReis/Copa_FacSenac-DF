@@ -48,6 +48,13 @@ main {
     height: 200px;
 }
 
+.fixcontent {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
 .content {
     display: flex;
     align-items: center;
@@ -75,6 +82,12 @@ main {
 .content .item a:hover {
     cursor: pointer;
 }
+
+.content ol img{
+    width: 400px;
+    height: 250px;
+}
+
 
 h1 {
     font-size: 50px;
